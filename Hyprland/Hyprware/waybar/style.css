@@ -1,0 +1,220 @@
+* {
+  border: 						none;
+  border-radius: 				0px;
+  font-family: 					Hack Nerd Font Mono;
+  font-size: 					12px;
+  min-height: 					0;
+}
+window#waybar {
+    background:					transparent;
+    color: 						#ffffff;
+}
+
+/*Left Modules*/
+	/*Workspaces*/
+#workspaces *{
+	font-size: 					20px;
+	font-weight:				bold;
+}
+#workspaces {
+	padding-left:				25px;
+	background-color: 			#1A1C20;
+	margin-left:				10px;
+	margin-top:					10px;
+	margin-bottom:				10px;
+	border-top:					2px solid #D91B4F;
+	border-bottom:				2px solid #D91B4F;
+	border-left:				2px solid #D91B4F;
+	border-top-left-radius:		0px;
+	border-bottom-left-radius:	30px;
+	}
+#workspaces button {
+	border-radius:				30px;
+	color:					  #EED2F3;
+}
+#workspaces button:hover {
+	margin:						5px;
+	border-radius:				100%;
+	background-color:		  #1A1C20;
+}
+#workspaces button.active {
+    color:					  #F94C9A;
+}
+	/*updates*/
+#custom-updates {
+	font-weight:				bold;
+	padding-left:				25px;
+	padding-right:				15px;
+	background-color:		  #1A1C20;
+	color:				 	  #EED2F3;
+	margin-top:					10px;
+	margin-bottom:				10px;
+	border-top:					2px solid #D91B4F;
+	border-bottom:				2px solid #D91B4F;
+	}
+/*memory*/
+#memory {
+	font-weight:				bold;
+	font-style:					italic;
+	padding-left:				15px;
+	padding-right:				15px;
+	background-color:			#1A1C20;
+	color:						#EED2F3;
+	margin-top:					10px;
+	margin-bottom:				10px;
+	border-top:					2px solid #D91B4F;
+	border-bottom:				2px solid #D91B4F;
+}
+/*cpu*/
+#cpu {
+	font-weight:				bold;
+	font-style:					italic;
+	padding-left:				15px;
+	padding-right:				15px;
+	background-color:			#1A1C20;
+	color:						#EED2F3;
+	margin-top:					10px;
+	margin-bottom:				10px;
+	border-top:					2px solid #D91B4F;
+	border-bottom:				2px solid #D91B4F;
+}
+/*disk*/
+#disk {	
+	font-weight:				bold;
+	font-style:					italic;
+	padding-left:				15px;
+	padding-right:				15px;
+	background-color:			#1A1C20;
+	color:						#EED2F3;
+	margin-top:					10px;
+	margin-bottom:				10px;
+	border-top:					2px solid #D91B4F;
+	border-bottom:				2px solid #D91B4F;
+	}
+/*network*/
+#network {
+	font-weight:				bold;
+	font-style:					italic;
+	padding-left:				15px;
+	padding-right:				30px;
+	background-color:			#1A1C20;
+	color:						#EED2F3;
+	margin-top:					10px;
+	margin-bottom:				10px;
+	border-top:					2px solid #D91B4F;
+	border-right:				2px solid #D91B4F;
+	border-bottom:				2px solid #D91B4F;
+	border-top-left-radius:		0px;
+	border-bottom-left-radius:	0px;
+	border-bottom-right-radius:	0px;
+	border-top-right-radius:	30px;
+}
+	
+/*Center Modules*/
+	/*Waybar-Mpris*/
+/*#custom-waybar-mpris {
+	font-weight:				bold;
+	font-style:					italic;
+	padding-left:				25px;
+	padding-right:				15px;
+	background-color:			#1A1C20;
+	color:						#EED2F3;
+	margin-left:				50px;
+	margin-top:					10px;
+	margin-bottom:				10px;
+	border-top:					2px solid #D91B4F;
+	border-bottom:				2px solid #D91B4F;
+	border-left:				2px solid #D91B4F;
+	border-top-left-radius:		30px;
+	border-bottom-left-radius:	0px;
+	border-bottom-right-radius:	0px;
+	border-top-right-radius:	0px;
+}*/
+#custom-music {
+	font-weight:				bold;
+	font-style:					italic;
+	padding-left:				25px;
+	padding-right:				30px;
+	background-color:			#1A1C20;
+	color:						#FD3EFC;
+	margin-left:				0px;
+	margin-top:					10px;
+	margin-bottom:				10px;
+	border:						2px solid #D91B4F;
+	border-top-left-radius:		30px;
+	border-bottom-left-radius:	0px;
+	border-bottom-right-radius:	0px;
+	border-top-right-radius:	30px;
+}
+
+/*Left Modules*/
+	/*Pulseaudio*/
+#pulseaudio {
+	font-weight:				bold;
+	padding-left:				30px;
+	padding-right:				15px;
+	background-color:			#1A1C20;
+	color:						#EED2F3;
+	margin-top:					10px;
+	margin-bottom:				10px;
+	border-top:					2px solid #D91B4F;
+	border-bottom:				2px solid #D91B4F;
+	border-left:				2px solid #D91B4F;
+	border-top-left-radius:		30px;
+	border-bottom-left-radius:	0px;
+	border-bottom-right-radius:	0px;
+	border-top-right-radius:	0px;
+}
+	/*Clock*/
+#clock {
+	font-weight:				bold;
+	padding-left:				15px;
+	padding-right:				15px;
+	background-color:			#1A1C20;
+	color:						#EED2F3;
+	margin-top:					10px;
+	margin-bottom:				10px;
+	border-top:					2px solid #D91B4F;
+	border-bottom:				2px solid #D91B4F;
+	border-radius:				0px;
+}
+	/*Tray*/
+#tray {
+	font-weight:				bold;
+	padding-left:				15px;
+	padding-right:				15px;
+	background-color:			#1A1C20;
+	color:						#C089A3;
+	margin-top:					10px;
+	margin-bottom:				10px;
+	border-top:					2px solid #D91B4F;
+	border-bottom:				2px solid #D91B4F;
+	border-radius:				0px;
+}
+	/*Powermenu*/
+#custom-powermenu {
+	font-size:					25px;
+	font-weight:				bold;
+	padding-left:				15px;
+	padding-right:				25px;
+	background-color:			#1A1C20;
+	color:						#F94C9A;
+	margin-top:					10px;
+	margin-bottom:				10px;
+	margin-right:				10px;
+	border-top:					2px solid #D91B4F;
+	border-bottom:				2px solid #D91B4F;
+	border-right:				2px solid #D91B4F;
+	border-top-left-radius:		0px;
+	border-bottom-left-radius:	0px;
+	border-bottom-right-radius:	30px;
+	border-top-right-radius:	0px;
+}
+tooltip {
+	border-radius:				0px;
+	border:						2px solid #D91B4F;
+}
+tooltip label {
+	font-size:					10px;
+	color:						#C089A3;
+}
